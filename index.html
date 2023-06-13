@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="color-scheme" content="dark light">
+    <title>2llM</title>
+    <link rel="icon" type="image/x-icon"
+        href="https://asset-cdn.learnyst.com/assets/schools/151/resources/images/unnamed_hs5a84.png">
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css"
+        integrity="sha512-N415hCJJdJx+1UBfULt+i+ihvOn42V/kOjOpp1UTh4CZ70Hx5bDlKryWaqEKfY/8EYOu/C2MuyaluJryK1Lb5Q=="
+        crossorigin="anonymous" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.min.js"
+        integrity="sha512-mp3VeMpuFKbgxm/XMUU4QQUcJX4AZfV5esgX72JQr7H7zWusV6lLP1S78wZnX2z9dwvywil1VHkHZAqfGOW7Nw=="
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-light d-none d-lg-block">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="https://asset-cdn.learnyst.com/assets/schools/151/resources/images/unnamed_hs5a84.png"
+                    height="48px"></a>
+            <span class="input-box">
+                <input type="text" class="form-control" placeholder="search"><i class="fa fa-search"></i>
+            </span>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><svg class="" width="28" height="28" viewBox="0 0 1024 1024"
+                        xmlns="http://www.w3.org/2000/svg"
+                        style="display: inline-block; vertical-align: middle; cursor: pointer;">
+                        <path
+                            d="M168.458 256h687.060c22.272 0 40.491 18.219 40.491 40.491v4.352c0 22.272-18.219 40.491-40.491 40.491h-687.060c-22.272 0-40.448-18.219-40.448-40.491v-4.352c0-22.272 18.176-40.491 40.448-40.491zM855.518 469.333h-687.060c-22.272 0-40.448 18.219-40.448 40.491v4.352c0 22.272 18.176 40.491 40.448 40.491h687.060c22.272 0 40.491-18.219 40.491-40.491v-4.352c0-22.272-18.219-40.491-40.491-40.491zM855.518 682.667h-687.060c-22.272 0-40.448 18.219-40.448 40.491v4.352c0 22.272 18.176 40.491 40.448 40.491h687.060c22.272 0 40.491-18.219 40.491-40.491v-4.352c0-22.272-18.219-40.491-40.491-40.491z"
+                            style="fill: rgb(21, 26, 48);"></path>
+                    </svg></span>
+            </button>
+
+            <div class="collapse navbar-collapse lf-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav d-none d-lg-block">
+                    <li class="nav-item ms-3">
+                        <button type="button" class="btn btn-light border darkbtn d-flex"> <svg class="mb-1 me-1"
+                                width="16" height="16" viewBox="0 0 843 1024" xmlns="http://www.w3.org/2000/svg"
+                                style="display: inline-block; vertical-align: middle; cursor: pointer;">
+                                <path
+                                    d="M721.143 744.571c-20.571 3.429-41.714 5.143-62.857 5.143-212 0-384-172-384-384 0-72.571 21.143-143.429 59.429-204-152 45.143-260.571 184.571-260.571 350.286 0 201.714 164 365.714 365.714 365.714 110.286 0 213.714-50.286 282.286-133.143zM837.143 696c-71.429 154.857-228 254.857-398.286 254.857-241.714 0-438.857-197.143-438.857-438.857 0-237.143 185.714-429.714 422.286-438.286 16-0.571 29.143 8.571 34.857 22.286 6.286 14.286 2.286 30.857-8.571 41.143-65.143 59.429-101.143 140.571-101.143 228.571 0 171.429 139.429 310.857 310.857 310.857 45.143 0 88.571-9.714 130.286-29.143 14.286-6.286 30.286-3.429 41.143 7.429s13.714 27.429 7.429 41.143z"
+                                    style="fill: rgb(21, 26, 48);"></path>
+                            </svg>DARK</button>
+                    </li>
+                </ul>
+
+                <div class="float-parent-element nav-item dropdown d-none d-lg-block">
+                    <div class="float-child-element d-flex lf-profile">
+                        <a class="nav-link text-dark mt-1 toplink" href="#">
+                            Communities
+                        </a>
+                        <a class="nav-link text-dark dot yellow" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">K
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Account</a></li>
+                            <li><a class="dropdown-item" href="#">Affiliate Dashboard</a></li>
+                            <li><a class="dropdown-item" href="#">Wallet</a></li>
+                            <li><a class="dropdown-item" href="#">Segments</a></li>
+                            <li><a class="dropdown-item" href="#">My enrollments</a></li>
+                            <li><a class="dropdown-item" href="#">favourites</a></li>
+                            <li><a class="dropdown-item" href="#">Communities</a></li>
+                            <li><a class="dropdown-item" href="#">Support</a></li>
+                            <li><a class="dropdown-item" href="#">Sign Out</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar-->
+
+
+    <!-- Top Navigation Menu -->
+
+    <header class="header d-lg-none">
+        <div class="lf-head">
+            <a class="me-2" href="#">
+                <img src="https://asset-cdn.learnyst.com/assets/schools/151/resources/images/unnamed_hs5a84.png"
+                    height="48px"></a>
+            <span class="input-box">
+                <input type="text" class="form-control" placeholder="search"><i class="fa fa-search"></i>
+            </span>
+            <button type="button" class="toggle lf-button" id="toggle">
+                <span></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="">
+        <div class="sidebar" id="sidebar">
+            <ul class="lf-side">
+                <div>
+                    <li>
+                        <p id="DarkModetext">Dark mode<label class="ms-2"><input type="checkbox" onclick="darkMode()">
+                        </p>
+                    </li>
+                </div>
+                <li>
+                    <p>account</p>
+                </li>
+                <li>
+                    <p>Affiliate Dashboard</p>
+                </li>
+                <li>
+                    <p>wallet</p>
+                </li>
+                <li>
+                    <p>Segments</p>
+                </li>
+                <li>
+                    <p>my enrollments</p>
+                </li>
+                <li>
+                    <p>favourites</p>
+                </li>
+                <li>
+                    <p>Communities</p>
+                </li>
+                <li>
+                    <p>Support</p>
+                </li>
+                <li>
+                    <p>Sign Out</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Header-->
+
+    <div class="container-fluid lf-header">
+        <div class="container pt-3">
+            <h6 class="pt-4">Hi Kalpesh Patel,</h6>
+            <h4 class="">Welcome to 2llM</h4>
+        </div>
+    </div>
+
+    <!-- Header-->
+
+    <!-- Section-->
+
+    <div class="container d-flex justify-content-between mt-3">
+        <h5 class="mb-0">Continue Learning</h5>
+        <div class="cursor-pointer">MY ENROLLMENTS<i class="fa fa-arrow-right ms-2" aria-hidden="true"></i></div>
+    </div>
+    <div class="container p-4">
+        <div class="row border rounded-3 lf-row p-1">
+            <div class="col-5 col-sm-3 my-3">
+                <div class="hoverimage">
+                    <img class="rounded-3 zoom p-0"
+                        src="https://asset-cdn.learnyst.com/assets/schools/151/courses/121542/Live_course_2023_01_pgbhtb.png"
+                        alt="Card image cap">
+                </div>
+            </div>
+            <div class="col-7 col-sm-9 p-1">
+                <h5 class="mt-3 description">Bundle</h5>
+                <p class="boldtext fs-6">Green - CAT 2023</p>
+                <button type="button" class="btn btn-warning border description mb-2"
+                    style="font-size: 12px !important;">PURCHASED</button>
+                <p>19 Courses</p>
+            </div>
+        </div>
+    </div>
+    <!--Section-->
+
+    <!--Slider-->
+
+    <div class="container d-flex justify-content-between mt-3">
+        <h5 class="boldtext cursor-pointer">Bundle <span class="bundle ms-2">06</span></h5>
+        <div class="cursor-pointer">View All</div>
+    </div>
+
+    <div class="container">
+        <div class="slide-container swiper overflow-visible">
+            <div class="slide-content">
+                <div class="card-wrapper swiper-wrapper">
+                    <div class="card swiper-slide">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/courses/141722/Interview_radygd.jpg"
+                            alt="" class="card-img m-2">
+                        <div class="card-content">
+                            <h2 class="name mb-3">2llM GD-PI-WAT 2022</h2>
+                            <p class="description mb-1">3 Courses</p>
+                            <p class="mb-0">$ 8,999 <span class="text-secondary" style="text-decoration: line-through">$
+                                    10,000</span></p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/courses/121542/Live_course_2023_01_pgbhtb.png"
+                            alt="" class="card-img m-2">
+                        <div class="card-content">
+                            <h2 class="name mb-3">Live Online CAT 2023</h2>
+                            <p class="description mb-1">24 Courses</p>
+                            <p class="mb-0">$ 28,999</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/courses/121544/comp_23_01_3hrxq5.png"
+                            alt="" class="card-img m-2">
+                        <div class="card-content">
+                            <h2 class="name mb-3">Comprehensive - CAT 2023</h2>
+                            <p class="description mb-1">21 Courses</p>
+                            <p class="mb-0">$ 21,999</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/courses/121548/Green_23_01_af50g8.png"
+                            alt="" class="card-img m-2">
+                        <div class="card-content">
+                            <h2 class="name mb-3">CAT-o-Pedia - CAT 2023</h2>
+                            <p class="description mb-1">27 Courses</p>
+                            <p class="mb-0">$ 18,999</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/courses/132438/ncert_fhaose.png"
+                            alt="" class="card-img m-2">
+                        <div class="card-content">
+                            <h2 class="name mb-3">NCERT 2llM GD-PI-WAT</h2>
+                            <p class="description mb-1">5 Courses</p>
+                            <p class="mb-0">$ 24,999</p>
+                        </div>
+                    </div>
+                    <div class="card swiper-slide">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/courses/121548/Green_23_01_af50g8.png"
+                            alt="" class="card-img m-2">
+                        <div class="card-content">
+                            <h2 class="name mb-3">Comprehensive - CAT 2023</h2>
+                            <p class="description mb-1">18 Courses</p>
+                            <p class="mb-0">$ 9,999</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!--Slider-->
+
+    <hr />
+
+    <!--Footer-->
+    <footer class="footer container">
+        <div class="container d-none d-lg-block">
+            <div class="row justify-content-center">
+                <div class="col-12 col-sm-4">
+                    <div class="footer-site-logo cursor-pointer mb-4">
+                        <img src="https://asset-cdn.learnyst.com/assets/schools/151/resources/images/unnamed_hs5a84.png"
+                            height="40px">
+                        <button type="button" class="btn btn-light border ms-2">LANGUAGES</button>
+                        <a href="#" class="text-decoration-none text-dark mt-1 ms-3">About Us</a>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-4">
+                    <ul class="d-flex list-unstyled justify-content-center">
+                        <li class="fb ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="li ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="tw ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="you ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="tel ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                    viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                    <path
+                                        d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                                    </path>
+                                </svg></a></li>
+                        <li class="ins ms-2"><a href="#"><svg stroke="currentColor" fill="#FFF" stroke-width="0"
+                                    viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                    style="background: linear-gradient(45deg, rgb(64, 93, 230), rgb(88, 81, 219), rgb(131, 58, 180), rgb(193, 53, 132), rgb(225, 48, 108), rgb(253, 29, 29)); border-radius: 6px;">
+                                    <path
+                                        d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                    </path>
+                                </svg></a></li>
+                    </ul>
+                </div>
+
+                <div class="col-12 cursor-pointer col-sm-4">
+                    <img src="https://learn.2iim.com/learn/learny-assets/play-store-badge.png" class="float-end" />
+                </div>
+
+                <div class="copyright d-flex col-12 col-sm-12">
+                    <p class="">Terms & Conditions</p>
+                    <p class="ms-3">Refund Policy</p>
+                    <p class="ms-3">Privacy Policy</p>
+                    <p class="ms-3">Contact Us</p>
+                    <p class="mb-0 ms-4"><small>Copyright &copy; 2023 2llM</small></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="d-lg-none lf-footer">
+            <div class="footer-site-logo my-3">
+                <img src="https://asset-cdn.learnyst.com/assets/schools/151/resources/images/unnamed_hs5a84.png"
+                    height="40px">
+            </div>
+            <button type="button" class="btn btn-light border mb-1">LANGUAGES</button>
+            <div href="#" class="text-decoration-none text-dark">About Us</div>
+
+            <div class="mt-2">
+                <ul class="d-flex list-unstyled justify-content-center">
+                    <li class="fb ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M400 32H48A48 48 0 0 0 0 80v352a48 48 0 0 0 48 48h137.25V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.27c-30.81 0-40.42 19.12-40.42 38.73V256h68.78l-11 71.69h-57.78V480H400a48 48 0 0 0 48-48V80a48 48 0 0 0-48-48z">
+                                </path>
+                            </svg></a></li>
+                    <li class="li ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                </path>
+                            </svg></a></li>
+                    <li class="tw ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M400 32H48C21.5 32 0 53.5 0 80v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V80c0-26.5-21.5-48-48-48zm-48.9 158.8c.2 2.8.2 5.7.2 8.5 0 86.7-66 186.6-186.6 186.6-37.2 0-71.7-10.8-100.7-29.4 5.3.6 10.4.8 15.8.8 30.7 0 58.9-10.4 81.4-28-28.8-.6-53-19.5-61.3-45.5 10.1 1.5 19.2 1.5 29.6-1.2-30-6.1-52.5-32.5-52.5-64.4v-.8c8.7 4.9 18.9 7.9 29.6 8.3a65.447 65.447 0 0 1-29.2-54.6c0-12.2 3.2-23.4 8.9-33.1 32.3 39.8 80.8 65.8 135.2 68.6-9.3-44.5 24-80.6 64-80.6 18.9 0 35.9 7.9 47.9 20.7 14.8-2.8 29-8.3 41.6-15.8-4.9 15.2-15.2 28-28.8 36.1 13.2-1.4 26-5.1 37.8-10.2-8.9 13.1-20.1 24.7-32.9 34z">
+                                </path>
+                            </svg></a></li>
+                    <li class="you ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M186.8 202.1l95.2 54.1-95.2 54.1V202.1zM448 80v352c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V80c0-26.5 21.5-48 48-48h352c26.5 0 48 21.5 48 48zm-42 176.3s0-59.6-7.6-88.2c-4.2-15.8-16.5-28.2-32.2-32.4C337.9 128 224 128 224 128s-113.9 0-142.2 7.7c-15.7 4.2-28 16.6-32.2 32.4-7.6 28.5-7.6 88.2-7.6 88.2s0 59.6 7.6 88.2c4.2 15.8 16.5 27.7 32.2 31.9C110.1 384 224 384 224 384s113.9 0 142.2-7.7c15.7-4.2 28-16.1 32.2-31.9 7.6-28.5 7.6-88.1 7.6-88.1z">
+                                </path>
+                            </svg></a></li>
+                    <li class="tel ms-2"><a href="#"><svg stroke="currentColor" fill="currentColor" stroke-width="0"
+                                viewBox="0 0 496 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M248 8C111 8 0 119 0 256s111 248 248 248 248-111 248-248S385 8 248 8zm121.8 169.9l-40.7 191.8c-3 13.6-11.1 16.9-22.4 10.5l-62-45.7-29.9 28.8c-3.3 3.3-6.1 6.1-12.5 6.1l4.4-63.1 114.9-103.8c5-4.4-1.1-6.9-7.7-2.5l-142 89.4-61.2-19.1c-13.3-4.2-13.6-13.3 2.8-19.7l239.1-92.2c11.1-4 20.8 2.7 17.2 19.5z">
+                                </path>
+                            </svg></a></li>
+                    <li class="ins ms-2"><a href="#"><svg stroke="currentColor" fill="#FFF" stroke-width="0"
+                                viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"
+                                style="background: linear-gradient(45deg, rgb(64, 93, 230), rgb(88, 81, 219), rgb(131, 58, 180), rgb(193, 53, 132), rgb(225, 48, 108), rgb(253, 29, 29)); border-radius: 6px;">
+                                <path
+                                    d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="mb-2">
+                <img src="https://learn.2iim.com/learn/learny-assets/play-store-badge.png" class="" />
+            </div>
+
+            <div class="copyright">
+                <p class="mb-1">Terms & Conditions</p>
+                <p class="ms-3 mb-1">Refund Policy</p>
+                <p class="ms-3 mb-1">Privacy Policy</p>
+                <p class="ms-3 mb-1">Contact Us</p>
+                <p class="mb-4"><small>Copyright &copy; 2023 2llM</small></p>
+            </div>
+        </div>
+
+    </footer>
+
+    <!--Footer-->
+
+</body>
+
+<!-- Swiper JS -->
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- JavaScript -->
+<script src="js/script.js"></script>
+
+</html>
